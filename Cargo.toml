@@ -1,0 +1,17 @@
+[package]
+name = "render_playground"
+version = "0.1.0"
+edition = "2021"
+resolver = "2"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rend3 = { git = "https://github.com/BVE-Reborn/rend3.git", rev = "763a721842ad02b08d3812791027ede451b4ec18" }
+rend3-routine = { git = "https://github.com/BVE-Reborn/rend3.git", rev = "763a721842ad02b08d3812791027ede451b4ec18" }
+env_logger = "0.9"
+winit = "0.26"
+pollster = "0.2"
+glam = "0.20"
+wgpu_glyph = { git = "https://github.com/genusistimelord/wgpu_glyph.git", branch = "query" }
+wgpu = "0.12"
